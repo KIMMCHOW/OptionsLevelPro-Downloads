@@ -11,10 +11,6 @@ This directory contains the Options Level Pro 0.6.0 DLL for ATAS 7.x.
 
 ## 状态 / Status
 
-当前版本为正式版，用于验证 protected data API、授权链路和 ATAS 7.x 兼容性。它可以用于受控实机验收和早期用户验证，正式商业发布前仍可能调整。
+当前版本为历史正式发布包，适用于 ATAS 7.x。
 
-Stable release build for validating the protected data API, license flow, and ATAS 7.x compatibility. It may be used for controlled real-machine acceptance and early user validation, and may still change before the formal commercial release.
-
-正式 DLL 已通过 Eziriz .NET Reactor 保护，文件名不带 protected 字样。
-
-Protected with Eziriz .NET Reactor. The formal DLL filename intentionally does not include 'protected'.
+Historical stable release package for ATAS 7.x.
