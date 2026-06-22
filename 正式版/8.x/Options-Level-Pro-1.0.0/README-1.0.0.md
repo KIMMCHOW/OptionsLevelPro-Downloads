@@ -1,16 +1,13 @@
 ﻿# Options Level Pro 1.0.0 / ATAS 8.x
 
-本目录保存适用于 ATAS 8.x 的 Options Level Pro 1.0.0 DLL。
-
+鏈洰褰曚繚瀛橀€傜敤浜?ATAS 8.x 鐨?Options Level Pro 1.0.0 DLL銆?
 This directory contains the Options Level Pro 1.0.0 DLL for ATAS 8.x.
 
-## 文件 / Files
+## 鏂囦欢 / Files
 
-- `Options-Level-Pro-1.0.0-ATAS-8.x.dll`：ATAS 8.x 指标 DLL。
-- `Options-Level-Pro-1.0.0-ATAS-8.x.dll`: ATAS 8.x indicator DLL.
+- `Options-Level-Pro-1.0.0-ATAS-8.x.dll`锛欰TAS 8.x 鎸囨爣 DLL銆?- `Options-Level-Pro-1.0.0-ATAS-8.x.dll`: ATAS 8.x indicator DLL.
 
-## 状态 / Status
+## 鐘舵€?/ Status
 
-当前 ATAS 8.x 正式发布包。
-
+褰撳墠 ATAS 8.x 姝ｅ紡鍙戝竷鍖呫€?
 Current stable release package for ATAS 8.x.

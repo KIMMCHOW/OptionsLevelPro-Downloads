@@ -1,20 +1,19 @@
-﻿# 发布说明 / Release Notes / Options Level Pro 1.0.0 / ATAS 8.x
+﻿# 鍙戝竷璇存槑 / Release Notes / Options Level Pro 1.0.0 / ATAS 8.x
 
-这是适用于 ATAS 8.x 的 Options Level Pro 正式发布包。
-
+杩欐槸閫傜敤浜?ATAS 8.x 鐨?Options Level Pro 姝ｅ紡鍙戝竷鍖呫€?
 This is a stable Options Level Pro release package for ATAS 8.x.
 
-## 修复 / Fixed
+## 鍐呭 / Contents
 
-- 合并本地历史缓存为 `options_level_pro_history.json`，按品种保存历史关键位。
-  Merged local history cache into `options_level_pro_history.json`, grouped by symbol.
-- 兼容旧的 `options_level_pro_history_{symbol}.json` 文件并在加载时迁移。
-  Compatible with legacy `options_level_pro_history_{symbol}.json` files and migrates them while loading.
-- 修复历史 VolTrig、Combo、Large Gamma 等关键位的类型恢复、颜色和显示。
-  Fixed historical VolTrig, Combo, Large Gamma, and related level type restore, color, and visibility.
+- 鏈熸潈鍏抽敭浣嶆按骞崇嚎缁樺埗銆?- Options key-level horizontal line rendering.
+- GC / MGC 鍏抽敭浣嶇粯鍒堕€昏緫銆?- GC / MGC key-level drawing behavior.
+- GC / MGC OI 鏍囩鏄剧ず銆?- GC / MGC OI label display.
+- 鍚堝苟鏈湴鍘嗗彶缂撳瓨涓?`options_level_pro_history.json`锛屾寜鍝佺淇濆瓨鍘嗗彶鍏抽敭浣嶃€?- Merged local history cache into `options_level_pro_history.json`, grouped by symbol.
+- 鍏煎鏃х殑 `options_level_pro_history_{symbol}.json` 鏂囦欢骞跺湪鍔犺浇鏃惰縼绉汇€?- Compatible with legacy `options_level_pro_history_{symbol}.json` files and migrates them while loading.
+- 鍏煎鏈嶅姟鍣ㄥ巻鍙叉暟鎹腑鐨勬棩鏈熼敭鏁扮粍鍜?`{ date, levels }` 涓ょ鏍煎紡銆?- Supports both date-keyed arrays and `{ date, levels }` server history formats.
+- 鐙珛 ATAS 8.x DLL 褰掓。銆?- Separate ATAS 8.x DLL archive.
 
-## 提醒 / Note
+## 鎻愰啋 / Note
 
-请下载与你 ATAS 大版本一致的 DLL，不要混用不同 ATAS 大版本的 DLL。
-
-Download the DLL that matches your ATAS major version. Do not mix DLLs across ATAS versions.
+璇蜂笅杞戒笌浣?ATAS 澶х増鏈竴鑷寸殑 DLL锛屼笉瑕佹贩鐢ㄤ笉鍚?ATAS 澶х増鏈殑 DLL銆?
+Download the DLL that matches your ATAS version. Do not mix DLLs across ATAS versions.
