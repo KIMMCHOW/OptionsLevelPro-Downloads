@@ -1,7 +1,7 @@
-﻿# 鏋勫缓淇℃伅 / Build Info / Options Level Pro 1.0.0 / ATAS 7.x
+﻿# Build Info / Options Level Pro 1.0.0 / ATAS 7.x
 
-- 浜у搧 / Product: Options Level Pro
-- 鐗堟湰 / Version: 1.0.0
-- ATAS 鐗堟湰 / ATAS version: 7.x
-- 鐩爣妗嗘灦 / Target framework: net8.0-windows
-- DLL: `Options-Level-Pro-1.0.0-ATAS-7.x.dll`
+- Product / 浜у搧: Options Level Pro
+- Version / 鐗堟湰: 1.0.0
+- ATAS version / ATAS 鐗堟湰: 7.x
+- Target framework / 鐩爣妗嗘灦: net8.0-windows
+- DLL / 鏂囦欢: `Options-Level-Pro-1.0.0-ATAS-7.x.dll`
