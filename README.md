@@ -19,8 +19,11 @@ English: Choose the DLL that matches your ATAS major version. DLLs for different
 
 ## 1.0.0 热修 / 1.0.0 Hotfix
 
-中文：ATAS 7.x / 8.x / ATAS X 的 `1.0.0` DLL 已重新打包，修复图表偶发显示 `0.00` 水平线的问题，并统一 ATAS X 版本号。
-English: The ATAS 7.x / 8.x / ATAS X `1.0.0` DLLs have been repackaged to fix the occasional `0.00` horizontal line on charts and align the ATAS X version number.
+中文：ATAS 7.x / 8.x / ATAS X 的 `1.0.0` DLL 已重新打包，修复图表偶发显示 `0.00` 水平线的问题，统一 ATAS X 版本号，并将 protected API 默认入口切换到 TradingHub 正式 HTTPS 域名。
+English: The ATAS 7.x / 8.x / ATAS X `1.0.0` DLLs have been repackaged to fix the occasional `0.00` horizontal line on charts, align the ATAS X version number, and move the protected API default endpoint to the formal TradingHub HTTPS domain.
+
+中文：下载仓库只保留 `1.0.0` 正式版；旧 `0.6.x` DLL 和说明文件已移除。
+English: The download repository retains only the `1.0.0` stable release; old `0.6.x` DLLs and package notes have been removed.
 
 ## 安装方法 / Installation
 
@@ -57,12 +60,6 @@ English: This README keeps the download index and quick installation notes; `doc
 | 1.0.0 | ATAS X | [DLL](正式版/ATAS%20X/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-X.dll) | [Release Notes](正式版/ATAS%20X/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) | [README](正式版/ATAS%20X/Options-Level-Pro-1.0.0/README-1.0.0.md) | [Build Info](正式版/ATAS%20X/Options-Level-Pro-1.0.0/BUILD_INFO-1.0.0.md) |
 | 1.0.0 | 8.x | [DLL](正式版/8.x/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-8.x.dll) | [Release Notes](正式版/8.x/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) | [README](正式版/8.x/Options-Level-Pro-1.0.0/README-1.0.0.md) | [Build Info](正式版/8.x/Options-Level-Pro-1.0.0/BUILD_INFO-1.0.0.md) |
 | 1.0.0 | 7.x | [DLL](正式版/7.x/Options-Level-Pro-1.0.0/Options-Level-Pro-1.0.0-ATAS-7.x.dll) | [Release Notes](正式版/7.x/Options-Level-Pro-1.0.0/RELEASE_NOTES-1.0.0.md) | [README](正式版/7.x/Options-Level-Pro-1.0.0/README-1.0.0.md) | [Build Info](正式版/7.x/Options-Level-Pro-1.0.0/BUILD_INFO-1.0.0.md) |
-| 0.6.2 | 8.x | [DLL](正式版/8.x/Options-Level-Pro-0.6.2/Options-Level-Pro-0.6.2-ATAS-8.x.dll) | [Release Notes](正式版/8.x/Options-Level-Pro-0.6.2/RELEASE_NOTES-0.6.2.md) | [README](正式版/8.x/Options-Level-Pro-0.6.2/README-0.6.2.md) | [Build Info](正式版/8.x/Options-Level-Pro-0.6.2/BUILD_INFO-0.6.2.md) |
-| 0.6.2 | 7.x | [DLL](正式版/7.x/Options-Level-Pro-0.6.2/Options-Level-Pro-0.6.2-ATAS-7.x.dll) | [Release Notes](正式版/7.x/Options-Level-Pro-0.6.2/RELEASE_NOTES-0.6.2.md) | [README](正式版/7.x/Options-Level-Pro-0.6.2/README-0.6.2.md) | [Build Info](正式版/7.x/Options-Level-Pro-0.6.2/BUILD_INFO-0.6.2.md) |
-| 0.6.1 | 8.x | [DLL](正式版/8.x/Options-Level-Pro-0.6.1/Options-Level-Pro-0.6.1-ATAS-8.x.dll) | [Release Notes](正式版/8.x/Options-Level-Pro-0.6.1/RELEASE_NOTES-0.6.1.md) | [README](正式版/8.x/Options-Level-Pro-0.6.1/README-0.6.1.md) | [Build Info](正式版/8.x/Options-Level-Pro-0.6.1/BUILD_INFO-0.6.1.md) |
-| 0.6.1 | 7.x | [DLL](正式版/7.x/Options-Level-Pro-0.6.1/Options-Level-Pro-0.6.1-ATAS-7.x.dll) | [Release Notes](正式版/7.x/Options-Level-Pro-0.6.1/RELEASE_NOTES-0.6.1.md) | [README](正式版/7.x/Options-Level-Pro-0.6.1/README-0.6.1.md) | [Build Info](正式版/7.x/Options-Level-Pro-0.6.1/BUILD_INFO-0.6.1.md) |
-| 0.6.0 | 8.x | [DLL](正式版/8.x/Options-Level-Pro-0.6.0/Options-Level-Pro-0.6.0-ATAS-8.x.dll) | [Release Notes](正式版/8.x/Options-Level-Pro-0.6.0/RELEASE_NOTES-0.6.0.md) | [README](正式版/8.x/Options-Level-Pro-0.6.0/README-0.6.0.md) | [Build Info](正式版/8.x/Options-Level-Pro-0.6.0/BUILD_INFO-0.6.0.md) |
-| 0.6.0 | 7.x | [DLL](正式版/7.x/Options-Level-Pro-0.6.0/Options-Level-Pro-0.6.0-ATAS-7.x.dll) | [Release Notes](正式版/7.x/Options-Level-Pro-0.6.0/RELEASE_NOTES-0.6.0.md) | [README](正式版/7.x/Options-Level-Pro-0.6.0/README-0.6.0.md) | [Build Info](正式版/7.x/Options-Level-Pro-0.6.0/BUILD_INFO-0.6.0.md) |
 
 ## 风险提示 / Risk Notice
 
